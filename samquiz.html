@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+<head>
+<title>quiz-main</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="styl_strony1.css" type="text/css">
+<script language="javascript" src="verify.js"></script>
+</head>
+<body> 
+    <form name="quiz">
+        <fieldset>
+        <legend class="bdsignup">Dane osobowe</legend>
+        <span class="bdsignup">Aby rozpocząć quiz, najpierw podaj swoje dane osobowe. </span> 
+        <div style="height: 10px"></div> 
+        Imię:
+            <input type="text" name="name" value="" size="18" maxlength="24">
+        <div style="height: 5px"></div>
+        Nazwisko:
+        <input type="text" name="surname" value="" size="24" maxlength="36">
+    <div style="height: 5px"></div>  
+        E-mail:
+            <input type="text" name="email" value="" size="24" maxlength="320">
+        <div style="height: 10px"></div>
+        Data urodzenia (DD.MM.YYYY):
+            <input type="text" name="birthdate" value="" size="12" maxlength="10">
+        </fieldset>
+        <fieldset>
+        <legend class="bdsignup">Quiz</legend>
+        <div style="height: 20px"></div>
+        <img src="img/a8.png" width="120" height="120"  style="vertical-align: middle"> <br>
+        <div style="height: 5px"></div>
+        <span class="question">Jakiego kraju jest to flaga?</span> <br> 
+            <input type="radio" value="tru" name="odp1" >Nepal 
+            <input type="radio" value="1b" name="odp1" >Somalia 
+            <input type="radio" value="1c" name="odp1" >Albania
+            <input type="radio" value="1d" name="odp1" >Erytrea<br>
+        <div style="height: 10px"></div>
+        <img src="img/a2.png" width="240" height="120"  style="vertical-align: middle"> <br>
+        <div style="height: 5px"></div>
+        <span class="question">Jakiego wojewodztwa w Polsce jest to flaga?</span> <br> 
+            <input type="radio" value="2a" name="odp2" >warmińsko-mazurskie
+            <input type="radio" value="2b" name="odp2" >zachodniopomorskie
+            <input type="radio" value="tru" name="odp2" >wielkopolskie
+            <input type="radio" value="2d" name="odp2" >lubelskie<br>
+        <div style="height: 10px"></div>
+        <img src="img/a4.png" width="220" height="120"  style="vertical-align: middle"> <br>
+        <div style="height: 5px"></div>
+        <span class="question">Jakiego kraju jest to flaga?</span> <br> 
+            <input type="radio" value="3a" name="odp3" >Panama
+            <input type="radio" value="3b" name="odp3" >Wenezuela
+            <input type="radio" value="tru" name="odp3" >Urugwaj
+            <input type="radio" value="3d" name="odp3" >Paragwaj<br>
+        <div style="height: 10px"></div>
+        <img src="img/a3.png" width="220" height="120"  style="vertical-align: middle"> <br>
+        <div style="height: 5px"></div>
+        <span class="question">Który kraj używał tej flagi między 1918 a 1920 rokiem?</span> <br> 
+            <input type="radio" value="4a" name="odp4" >Jugosławia
+            <input type="radio" value="tru" name="odp4" >Czechosłowacja
+            <input type="radio" value="4c" name="odp4" >Litwa
+            <input type="radio" value="4d" name="odp4" >Węgry<br>
+        <div style="height: 10px"></div>
+        <img src="img/a1.png" width="320" height="160"  style="vertical-align: middle"> <br>
+        <div style="height: 5px"></div>
+        <span class="question">Jakie flagi posiadają tylko barwy żólte i niebieskie?</span> <br> 
+            <input type="checkbox" value="tru" name="odp5" >Szwecja
+            <input type="checkbox" value="5b" name="odp5" >Rumunia
+            <input type="checkbox" value="tru" name="odp5" >Ukraina
+            <input type="checkbox" value="5c" name="odp5" >Norwegia
+            <input type="checkbox" value="5d" name="odp5" >Bośnia i Hercegowina<br>
+        <div style="height: 10px"></div>
+        <img src="img/a7.png" width="260" height="160"  style="vertical-align: middle"> <br>
+        <div style="height: 5px"></div>
+        <span class="question">Które miasto używa tej flagi?</span> <br> 
+            <input type="radio" value="6a" name="odp6" >Macau
+            <input type="radio" value="6b" name="odp6" >Vancouver
+            <input type="radio" value="tru" name="odp6" >Hong Kong
+            <input type="radio" value="6d" name="odp6" >Tokio<br>
+        <div style="height: 10px"></div>
+        <img src="img/a10.png" width="160" height="160"  style="vertical-align: middle"> <br>
+        <div style="height: 5px"></div>
+        <span class="question">Wymień kraje które mają orła na swoim godle.</span> <br> 
+            <input type="checkbox" value="tru" name="odp7" >Rumunia
+            <input type="checkbox" value="7b" name="odp7" >Czechy
+            <input type="checkbox" value="tru" name="odp7" >Niemcy
+            <input type="checkbox" value="tru" name="odp7" >Rosja
+            <input type="checkbox" value="7e" name="odp7" >Węgry<br>
+        <div style="height: 10px"></div>
+        <img src="img/a9.png" width="260" height="160"  style="vertical-align: middle"> <br>
+        <div style="height: 5px"></div>
+        <span class="question">Z którymi krajami ten kraj z tą flagą ma roszczenia terytorialne?</span> <br> 
+            <input type="checkbox" value="8a" name="odp8" >Birma
+            <input type="checkbox" value="8b" name="odp8" >Sri Lanka
+            <input type="checkbox" value="tru" name="odp8" >Chiny
+            <input type="checkbox" value="8d" name="odp8" >Bangladesz
+            <input type="checkbox" value="tru" name="odp8" >Pakistan<br>
+        <div style="height: 10px"></div>
+        <img src="img/a5.png" width="320" height="160"  style="vertical-align: middle"> <br>
+        <div style="height: 5px"></div>
+        <span class="question">Które kraje posiadają na swojej fladze tzw. Union Jack poza UK?</span> <br> 
+            <input type="checkbox" value="9a" name="odp9" >Irlandia
+            <input type="checkbox" value="9b" name="odp9" >Kanada
+            <input type="checkbox" value="tru" name="odp9" >Australia
+            <input type="checkbox" value="tru" name="odp9" >Fiji
+            <input type="checkbox" value="9e" name="odp9" >Cypr<br>
+        <div style="height: 10px"></div>
+        <img src="img/a6.png" width="320" height="160"  style="vertical-align: middle"> <br>
+        <div style="height: 5px"></div>
+        <span class="question">Zaznacz kraje należące do grupy tzw. krajów bałtyckich.</span> <br> 
+            <input type="checkbox" value="tru" name="odp10" >Łotwa
+            <input type="checkbox" value="tru" name="odp10" >Estonia
+            <input type="checkbox" value="10c" name="odp10" >Finlandia
+            <input type="checkbox" value="10d" name="odp10" >Polska
+            <input type="checkbox" value="tru" name="odp10" >Litwa<br>
+        <div style="height: 20px"></div>
+        Gdy chcesz rozpocząć quiz od samego początku, kliknij przycisk: <br>
+            <div style="height: 10px"></div>
+            <input type="reset" value="Wyczyść wszystkie pola"> 
+            <div style="height: 20px"></div> 
+            <span class="bdsignup">Gdy skończyłeś odpowiadać na pytania, kliknij przycisk:</span> <br>
+            <div style="height: 10px"></div>
+            <input type="button" value="Zweryfikuj odpowiedzi" onclick="verify()">
+            <div style="height: 10px"></div>
+        </fieldset>
+        </form>
