@@ -6,7 +6,7 @@ Zadaniem tego projektu było napisanie prostej strony internetowej zawierającej
 Projekt został zbudowany od podstaw przy użyciu czystych technologii webowych (bez zewnętrznych frameworków):
 * **HTML5** – semantyczna struktura aplikacji.
 * **CSS3** – wygląd, stylowanie oraz układ elementów na stronie.
-* **JavaScript (Vanilla JS)** – główna logika quizu, obsługa zdarzeń, weryfikacja odpowiedzi i zliczanie punktów
+* **JavaScript** – główna logika quizu, obsługa zdarzeń, weryfikacja odpowiedzi i zliczanie punktów
 
 Aby uruchomić stronę należy pobrać repozytorium, rozpakować archiwum i uruchomić plik "strona.html"
 
